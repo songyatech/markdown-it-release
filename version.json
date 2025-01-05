@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-01-05",
+  "name": "markdown-it-release",
+  "description": "Release information for markdown-it plugin",
+  "changelog": {
+    "1.0.0": {
+      "date": "2025-01-05",
+      "type": "major",
+      "changes": [
+        "Initial release",
+        "Basic markdown parsing functionality",
+        "Support for standard markdown syntax"
+      ],
+      "features": [
+        "Core markdown parsing",
+        "Plugin system support",
+        "Customizable rendering options"
+      ],
+      "fixes": [],
+      "deprecated": []
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/songyatech/markdown-it-release"
+  },
+  "author": "songyatech",
+  "license": "MIT",
+  "stability": "stable",
+  "dependencies": {
+    "markdown-it": "^13.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
